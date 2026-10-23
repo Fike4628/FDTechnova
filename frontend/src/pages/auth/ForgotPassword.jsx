@@ -17,6 +17,17 @@ function ForgotPassword() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 flex items-center justify-center px-4">
+
+      {/* Back to home */}
+      <div className="absolute top-5 left-5 sm:top-7 sm:left-8">
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-blue-200 hover:text-white text-sm font-medium transition-colors"
+        >
+          <FiArrowLeft size={15} /> Back to Home
+        </Link>
+      </div>
+
       <div className="w-full max-w-md bg-white rounded-3xl shadow-2xl overflow-hidden">
         <div className="h-2 bg-gradient-to-r from-primary-600 to-primary-400" />
         <div className="p-8 sm:p-10">

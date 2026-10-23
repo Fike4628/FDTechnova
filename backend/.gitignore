@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Builds & logs
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Uploads (runtime generated)
+uploads/
+!uploads/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Test coverage
+coverage/
